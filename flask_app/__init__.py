@@ -20,5 +20,4 @@ app.config['BASIC_AUTH_FORCE'] = BASIC_AUTH_FORCE
 basic_auth = BasicAuth(app)
 
 import views
-import uploaders
 import filters
