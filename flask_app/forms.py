@@ -16,7 +16,7 @@ from flask.ext import wtf
 from flask.ext.wtf import Form
 from wtforms.fields import TextField, BooleanField, PasswordField, TextAreaField
 from wtforms.validators import Required 
-from models import db_users
+from models import *
 import hashlib
 
 class LoginForm(wtf.Form):

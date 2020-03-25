@@ -18,5 +18,4 @@ app.config['BASIC_AUTH_FORCE'] = BASIC_AUTH_FORCE
 
 
 import views
-import uploaders
 import filters
