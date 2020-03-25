@@ -12,14 +12,13 @@ See: http://flask.pocoo.org/docs/patterns/wtforms/
 
 """
 
-from flask.ext import wtf
-from flask.ext.wtf import Form
-from wtforms.fields import TextField, BooleanField, PasswordField, TextAreaField
+from flask_wtf import Form
+from wtforms import TextField, BooleanField, PasswordField, TextAreaField
 from wtforms.validators import Required 
 from models import *
 import hashlib
 
-class LoginForm(wtf.Form):
+class LoginForm(Form):
     email = TextField('Email', [Required()])
     password = PasswordField('Password', [Required()])
 
