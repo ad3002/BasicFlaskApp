@@ -25,7 +25,7 @@ def get_context():
     tasks = None
 
     context = {
-        "title": "AppTitle",
+        "title": "CovidWatch",
     }
     
     return context
