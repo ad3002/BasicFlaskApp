@@ -14,10 +14,10 @@ from flask_app.forms import *
 from flask_app.workers import *
 import time
 import datetime
-import eventlet
-from eventlet.green import urllib2
+# import eventlet
+# from eventlet.green import urllib2
 
-eventlet.monkey_patch() 
+# eventlet.monkey_patch() 
 
 def get_context():
 
